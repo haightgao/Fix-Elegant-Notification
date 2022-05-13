@@ -3,9 +3,8 @@
 
   
 
-#  Elegant Notification
+#  FixElegant Notification
 
-  
 
   
 
@@ -32,7 +31,10 @@
 
   
 
-  
+
+## Fix
+
+- 解决 警告 Operand of null-aware operation '!' has type 'WidgetsBinding' which excludes null
 
 ##  Features
 
