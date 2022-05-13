@@ -1,7 +1,6 @@
 import 'package:elegant_notification/gen/assets.gen.dart';
 import 'package:elegant_notification/resources/arrays.dart';
 import 'package:elegant_notification/resources/constants.dart';
-import 'package:elegant_notification/resources/dimens.dart';
 import 'package:elegant_notification/resources/extensions.dart';
 import 'package:flutter/material.dart';
 import '../resources/colors.dart';
@@ -15,7 +14,7 @@ class ToastContent extends StatelessWidget {
     required this.displayCloseButton,
     this.icon,
     this.onCloseButtonPressed,
-    this.iconSize = defaultIconSize,
+    this.iconSize = 20,
     this.action,
     this.onActionPressed,
   }) : super(key: key);

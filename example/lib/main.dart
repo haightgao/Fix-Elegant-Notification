@@ -176,6 +176,7 @@ class ExampleApp extends StatelessWidget {
                       ),
                     ),
                     onActionPressed: () {
+                      // ignore: avoid_print
                       print('Oh yeahh!');
                     },
                     showProgressIndicator: false,

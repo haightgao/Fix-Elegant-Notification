@@ -2,8 +2,6 @@ import 'dart:async';
 
 import 'package:elegant_notification/resources/arrays.dart';
 import 'package:elegant_notification/resources/colors.dart';
-import 'package:elegant_notification/resources/constants.dart';
-import 'package:elegant_notification/resources/dimens.dart';
 import 'package:elegant_notification/widgets/animated_progress_bar.dart';
 import 'package:elegant_notification/widgets/toast_content.dart';
 import 'package:flutter/material.dart';
@@ -443,7 +441,7 @@ class _ElegantNotificationState extends State<ElegantNotification>
       default:
     }
 
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       slideController.forward();
     });
   }
